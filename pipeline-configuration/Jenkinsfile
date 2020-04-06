@@ -1,2 +1,6 @@
+/*
 parallel "Unit Test": { unit_test() },
          "Application Dependency Scan": { application_dependency_scan() }
+*/
+build() 
+scan_container_image() 
