@@ -15,5 +15,7 @@ libraries{
     repo_path_prefix = "steven-terrana/dummy-vuln-app" 
     cred = "github" 
   }
-  sysdig_secure
+  sysdig_secure{
+    cred = "sysdig-secure-api"
+  }
 }
