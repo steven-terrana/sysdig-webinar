@@ -1,1 +1,2 @@
-unit_test()
+parallel "Unit Test": { unit_test() },
+         "Application Dependency Scan": { application_dependency_scan() }
