@@ -8,6 +8,9 @@ libraries{
       cred = "github"
     }
   }
+  github{
+     source_type = "github"
+  }
   pytest
   owasp_dep_check
   docker{
