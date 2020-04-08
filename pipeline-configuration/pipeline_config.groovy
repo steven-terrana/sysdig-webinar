@@ -21,4 +21,15 @@ libraries{
   sysdig_secure{
     cred = "sysdig-secure-api"
   }
+  kubernetes{
+    k8s_credential = "kubeconfig" 
+    helm_configuration_repository = "https://github.com/steven-terrana/sysdig-webinar" 
+    helm_configuration_repository_credential = "github" 
+    k8s_context = "service-account-context"
+    promote_previous_image = false 
+  }
+}
+
+application_environments{
+  prod
 }
