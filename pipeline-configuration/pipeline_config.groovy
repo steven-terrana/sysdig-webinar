@@ -28,6 +28,9 @@ libraries{
     k8s_context = "service-account-context"
     promote_previous_image = false 
   }
+  owasp_zap{
+    target = "http://174.129.63.34:31165"
+  }
 }
 
 application_environments{
