@@ -35,7 +35,7 @@ libraries{
     target = "http://174.129.63.34:31165"
   }
   google_lighthouse{
-    url = "http://http://54.172.14.65:31165"
+    url = "http://54.172.14.65:31165"
   }
 }
 
