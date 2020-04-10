@@ -1,5 +1,7 @@
 parallel "Unit Test": { unit_test() },
-         "Application Dependency Scan": { application_dependency_scan() }
+         "Application Dependency Scan": { application_dependency_scan() },
+         "Static Code Analysis": { static_code_analysis() }
+         
 build() 
 scan_container_image() 
 deploy_to prod 

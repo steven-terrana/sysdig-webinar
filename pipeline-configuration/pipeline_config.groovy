@@ -13,6 +13,9 @@ libraries{
   }
   pytest
   owasp_dep_check
+  sonarqube{
+    
+  }
   docker{
     registry = "docker.pkg.github.com"
     repo_path_prefix = "steven-terrana/dummy-vuln-app" 
