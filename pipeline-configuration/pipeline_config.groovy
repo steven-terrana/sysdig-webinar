@@ -13,9 +13,7 @@ libraries{
   }
   pytest
   owasp_dep_check
-  sonarqube{
-    
-  }
+  sonarqube
   docker{
     registry = "docker.pkg.github.com"
     repo_path_prefix = "steven-terrana/dummy-vuln-app" 
@@ -32,7 +30,7 @@ libraries{
     promote_previous_image = false 
   }
   owasp_zap{
-    target = "http://174.129.63.34:31165"
+    target = "http://54.172.14.65:31165"
   }
   google_lighthouse{
     url = "http://54.172.14.65:31165"
