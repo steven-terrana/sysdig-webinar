@@ -6,7 +6,6 @@ resource "sysdig_secure_policy" "terminal_shell_or_ssh_in_container" {
   scope       = "kubernetes.cluster.name = 'BAH_CLUSTER' and kubernetes.namespace.name = 'demo'"
   rule_names  = [sysdig_secure_rule_process.terminal_shell.name]
   actions {
-    container = "notify"
     capture {
       seconds_before_event = 5
       seconds_after_event  = 10
