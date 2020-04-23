@@ -30,10 +30,10 @@ libraries{
     promote_previous_image = false 
   }
   owasp_zap{
-    target = "http://54.172.14.65:31165"
+    target = "http://54.211.31.156:31165"
   }
   google_lighthouse{
-    url = "http://54.172.14.65:31165"
+    url = "http://54.211.31.156:31165"
   }
 }
 
